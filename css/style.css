@@ -1,0 +1,332 @@
+/***************************************************/
+/**                   style.css                   **/
+/**  AUTEURS : MALHERBE Charles / MERCIER Pierre  **/
+/**            SITE : ppp.malherbe.me             **/
+/***************************************************/
+
+@font-face {
+  font-family: base;
+  src: url("/fonts/base.ttf")
+}
+
+h1,h3,h4,h5,h6{
+  font-family: base, sans-serif;
+  font-weight: bold;
+}
+a {
+ color:#000;
+ text-decoration:none;
+ background-color:transparent;
+}
+.script-bold{
+ font-weight:800;
+ margin-bottom:0.4rem;
+}
+a:hover {
+ color:#747474;
+}
+.badge-warning {
+ color:#fff;
+ background-color:#ffa200;
+}
+.badge {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 8px;
+ padding-right: 8px;
+}
+.card-link {
+ font-weight:800;
+}
+.card-link:hover {
+ font-weight:800;
+ }
+h2{
+  font-family: base, sans-serif;
+  font-weight: bold;
+}
+
+body {
+ margin:0;
+ font-family: base, sans-serif;
+ font-size:15px;
+ font-weight:400;
+ line-height:1.5;
+ color:#212529;
+ text-align:left;
+ background-color:#fff
+}
+
+p{
+  font-family: base, sans-serif;
+}
+
+.thin{
+  font-family: base, sans-serif;
+  font-weight: lighter;
+}
+
+div.interview{
+  width: 100%;
+}
+
+video{
+  width: 55%;
+  border: 1px solid #474747;
+}
+
+
+header nav{
+    font-variant: small-caps;
+    font-size: 17px;
+}
+
+header img{
+    width: 80px;
+}
+
+header nav a, footer a{
+    color: white;
+}
+
+header nav a:hover, footer a:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+section{
+    padding: 30px 0;
+    margin-top: 90px;
+}
+
+footer{
+    padding: 20px 0;
+}
+
+footer img{
+    margin-right: 20px;
+}
+
+footer hr{
+    background-color: grey;
+}
+
+.contact-link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-link:hover{
+    color: #454545;
+    text-align: center;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+.center-caps{
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 0;
+}
+.content{
+    margin-bottom: -100px;
+}
+
+.error{
+    font-size: 300px;
+    font-weight: bolder;
+    color: lightgray;
+    text-align: center;
+}
+
+.on{
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+.down{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    top: -200px;
+}
+
+.custom{
+    font-weight: 100;
+    font-size: 18px;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: -200px;
+    line-height: 32.5px;
+}
+
+@media screen and (max-width: 576px){
+    .error{
+        font-size: 150px;
+    }
+    .on{
+        font-size: 20px;
+        top: -150px;
+    }
+    .down, .custom{
+        font-size: 16px;
+        top: -150px;
+    }
+}
+
+.round{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.card img{
+    width: 50%;
+    border: .5rem solid rgba(89, 89, 89, 0.2);
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+header .dropdown-menu{
+    padding: 0;
+    background-color:#343a40;
+    border: none;
+    border-radius:0.3rem;
+    margin-top: 12px;
+}
+
+header .dropdown-item{
+    padding: 0;
+    padding-right:1.5rem;
+    color:#fff;
+    background-color: #343a40;
+    text-align: center;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 182px;
+}
+header .dropdown-item:hover{
+    padding: 0;
+    padding-right:1.5rem;
+    color: lightgray;
+    background-color: #343a40;
+    text-align: center;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 182px;
+}
+
+header .nav-item{
+    text-align: center;
+}
+
+header .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.0rem;
+    padding-left: 1.0rem;
+}
+
+.btn-caps:hover{
+    color: black;
+}
+.numbers .number {
+    font-size: 5rem;
+    color: #ff4a4a;
+    margin: 20px 0;
+}
+.pointer {
+    cursor: pointer;
+}
+.icon-btn {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.icon-btn-modal {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.center {
+    text-align: center;
+}
+.btn-caps{
+    font-variant: small-caps;
+    color: black
+}
+.btn-caps-bis{
+    font-variant: small-caps;
+}
+.title-caps{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: large;
+}
+.title-caps-bio{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 26px;
+    font-weight:bolder;
+}
+.item-align-center{
+    text-align: center;
+}
+.img-center{
+    text-align: center;
+    padding-top: 6.8%;
+}
+.personne{
+    width: 50%;
+    border: .5rem solid rgba(89, 89, 89, 0.2);
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.nav-custom{
+    background-color: #343a40;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+}
+.drop{
+    position: absolute;
+    will-change: transform;
+    background-color: rgb(52, 58, 64);
+    font-size: 14px;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(255px, 0px, 0px);
+}
+.nav-custom a{
+    color: white;
+    font-variant: small-caps;
+}
+
+.nav-custom a:hover{
+    color: lightgray;
+    background-color: #343a40;
+}
+.nav-custom a:active{
+    color: lightgray;
+    font-weight: bold;
+}
